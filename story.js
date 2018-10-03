@@ -606,16 +606,27 @@ var get = squiffy.get;
 var set = squiffy.set;
 
 
-squiffy.story.start = 'Start';
+squiffy.story.start = 'Warning';
 squiffy.story.id = '886c998fdb';
 squiffy.story.sections = {
-	'Start': {
-		'text': "<p>Testing start page</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Next\" role=\"link\" tabindex=\"0\">Next</a></p>",
+	'': {
+		'text': "<p><p align=\"right\">Peter C. Davidson — Interactive Resume</p></p>\n<hr>",
 		'passages': {
 		},
 	},
-	'Next': {
-		'text': "<p>Testing next page</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Start\" role=\"link\" tabindex=\"0\">Back</a></p>",
+	'Warning': {
+		'text': "<p>NOTE: This resume is a work in progress and is not meant to be shared yet.</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Start\" role=\"link\" tabindex=\"0\">Continue</a></p>",
+		'passages': {
+		},
+	},
+	'Start': {
+		'clear': true,
+		'text': "<p>Welcome to Peter C. Davidson&#39;s interactive resume. Pick a section below:</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Work Experience\" role=\"link\" tabindex=\"0\">Work Experience</a></p>",
+		'passages': {
+		},
+	},
+	'Work Experience': {
+		'text': "<h3>Work Experience</h3>\n\n<hr>\n\n<p>Click a job to learn more.</p>\n<p><b><a class=\"squiffy-link link-section\" data-section=\"Video Production Specialist\" role=\"link\" tabindex=\"0\">Video Production Specialist</a></b><br>\nHappy Fox Media - Orem, UT<br>\nJanuary 2014 to Present<br></p>\n<p>VFX Coordinator<br>\nLDS Motion Picture Studio (mpsVFX) - Provo, UT<br>\nJanuary 2018 to September 2018<br></p>\n<p>Video Editor<br>\nUniversity of Utah MBA Online Program - Salt Lake City, UT<br>\nMarch 2014 to May 2016<br></p>\n<p>Private Music Instructor<br>\nPrivate Studio - Salt Lake City, UT<br>\n2008 to 2015<br></p>\n<p>Teaching Assistant<br>\nUniversity of Utah - David Eccles School of Business - Salt Lake City, UT<br>\nAugust 2013 to February 2014<br></p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Start\" role=\"link\" tabindex=\"0\">Back</a></p>",
 		'passages': {
 		},
 	},
