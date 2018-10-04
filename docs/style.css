@@ -1,36 +1,41 @@
 a.squiffy-link
 {
     text-decoration: underline;
-    color: Blue;
+    color: #4682B4;
     cursor: pointer;
+    font-family: 'Nunito', sans-serif;
 }
 a.squiffy-link.disabled
 {
     text-decoration: inherit;
     color: inherit !important;
     cursor: inherit;
+    font-family: 'Nunito', sans-serif;
 }
 a.squiffy-header-link
 {
     text-decoration: underline;
-    color: Blue;
+    color: #4682B4;
     cursor: pointer;
+    font-family: 'Nunito', sans-serif;
 }
 div#squiffy-container
 {
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
-    font-family: Georgia, serif;
+    font-family: 'Nunito', sans-serif;
 }
 div#squiffy-header
 {
     font-size: 14px;
     text-align: right;
+    font-family: 'Nunito', sans-serif;
 }
 div#squiffy
 {
     font-size: 18px;
+    font-family: 'Nunito', sans-serif;
 }
 hr {
     border: 0;

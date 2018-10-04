@@ -607,10 +607,11 @@ var set = squiffy.set;
 
 
 squiffy.story.start = 'Warning';
-squiffy.story.id = '886c998fdb';
+squiffy.story.id = '093120f6dd';
 squiffy.story.sections = {
 	'': {
-		'text': "<p><p align=\"right\">Peter C. Davidson — Interactive Resume</p></p>\n<hr>",
+		'clear': true,
+		'text': "",
 		'passages': {
 		},
 	},
@@ -620,13 +621,12 @@ squiffy.story.sections = {
 		},
 	},
 	'Start': {
-		'clear': true,
-		'text': "<p>Welcome to Peter C. Davidson&#39;s interactive resume. Pick a section below:</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Work Experience\" role=\"link\" tabindex=\"0\">Work Experience</a></p>",
+		'text': "<p><br><h3 align=\"center\">Peter C. Davidson – Interactive Resume </h3><br></p>\n<p>Welcome to my interactive resume. Pick a section below:</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Work Experience\" role=\"link\" tabindex=\"0\">Work Experience</a></p>",
 		'passages': {
 		},
 	},
 	'Work Experience': {
-		'text': "<h3>Work Experience</h3>\n\n<hr>\n\n<p>Click a job to learn more.</p>\n<p><b><a class=\"squiffy-link link-section\" data-section=\"Video Production Specialist\" role=\"link\" tabindex=\"0\">Video Production Specialist</a></b><br>\nHappy Fox Media - Orem, UT<br>\nJanuary 2014 to Present<br></p>\n<p>VFX Coordinator<br>\nLDS Motion Picture Studio (mpsVFX) - Provo, UT<br>\nJanuary 2018 to September 2018<br></p>\n<p>Video Editor<br>\nUniversity of Utah MBA Online Program - Salt Lake City, UT<br>\nMarch 2014 to May 2016<br></p>\n<p>Private Music Instructor<br>\nPrivate Studio - Salt Lake City, UT<br>\n2008 to 2015<br></p>\n<p>Teaching Assistant<br>\nUniversity of Utah - David Eccles School of Business - Salt Lake City, UT<br>\nAugust 2013 to February 2014<br></p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Start\" role=\"link\" tabindex=\"0\">Back</a></p>",
+		'text': "<p><p align=\"right\">Peter C. Davidson — Interactive Resume</p><hr></p>\n<h3>Work Experience</h3>\n\n<p>Click a job to learn more.</p>\n<p><b><a class=\"squiffy-link link-section\" data-section=\"Video Production Specialist\" role=\"link\" tabindex=\"0\">Video Production Specialist</a></b><br>\nHappy Fox Media - Orem, UT<br>\nJanuary 2014 to Present<br></p>\n<p>VFX Coordinator<br>\nLDS Motion Picture Studio (mpsVFX) - Provo, UT<br>\nJanuary 2018 to September 2018<br></p>\n<p>Video Editor<br>\nUniversity of Utah MBA Online Program - Salt Lake City, UT<br>\nMarch 2014 to May 2016<br></p>\n<p>Private Music Instructor<br>\nPrivate Studio - Salt Lake City, UT<br>\n2008 to 2015<br></p>\n<p>Teaching Assistant<br>\nUniversity of Utah - David Eccles School of Business - Salt Lake City, UT<br>\nAugust 2013 to February 2014<br></p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Start\" role=\"link\" tabindex=\"0\">Back</a></p>",
 		'passages': {
 		},
 	},
