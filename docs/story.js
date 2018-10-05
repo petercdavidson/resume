@@ -606,7 +606,7 @@ var get = squiffy.get;
 var set = squiffy.set;
 
 
-squiffy.story.start = 'Warning';
+squiffy.story.start = 'MAIN';
 squiffy.story.id = '093120f6dd';
 squiffy.story.sections = {
 	'': {
@@ -616,17 +616,77 @@ squiffy.story.sections = {
 		},
 	},
 	'Warning': {
-		'text': "<p>NOTE: This resume is a work in progress and is not meant to be shared yet.</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Start\" role=\"link\" tabindex=\"0\">Continue</a></p>",
+		'text': "<p>NOTE: This resume is a work in progress and is not meant to be shared yet.</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"MAIN\" role=\"link\" tabindex=\"0\">Continue</a></p>",
 		'passages': {
 		},
 	},
-	'Start': {
-		'text': "<p><br><h3 align=\"center\">Peter C. Davidson – Interactive Resume </h3><br></p>\n<p>Welcome to my interactive resume. Pick a section below:</p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Work Experience\" role=\"link\" tabindex=\"0\">Work Experience</a></p>",
+	'MAIN': {
+		'text': "<p><br><h2 align=\"center\">Peter C. Davidson – Interactive Resume </h2><br>\n<em>Pick a section below:</em><br><br></p>\n<h3 id=\"-a-class-squiffy-link-link-section-data-section-we-role-link-tabindex-0-work-experience-a-\"><a class=\"squiffy-link link-section\" data-section=\"WE\" role=\"link\" tabindex=\"0\">Work Experience</a></h3>\n<h3 id=\"-a-class-squiffy-link-link-section-data-section-edu-role-link-tabindex-0-education-a-\"><a class=\"squiffy-link link-section\" data-section=\"EDU\" role=\"link\" tabindex=\"0\">Education</a></h3>\n<p><br><br>(more to come)</p>",
 		'passages': {
 		},
 	},
-	'Work Experience': {
-		'text': "<p><p align=\"right\">Peter C. Davidson — Interactive Resume</p><hr></p>\n<h3>Work Experience</h3>\n\n<p>Click a job to learn more.</p>\n<p><b><a class=\"squiffy-link link-section\" data-section=\"Video Production Specialist\" role=\"link\" tabindex=\"0\">Video Production Specialist</a></b><br>\nHappy Fox Media - Orem, UT<br>\nJanuary 2014 to Present<br></p>\n<p>VFX Coordinator<br>\nLDS Motion Picture Studio (mpsVFX) - Provo, UT<br>\nJanuary 2018 to September 2018<br></p>\n<p>Video Editor<br>\nUniversity of Utah MBA Online Program - Salt Lake City, UT<br>\nMarch 2014 to May 2016<br></p>\n<p>Private Music Instructor<br>\nPrivate Studio - Salt Lake City, UT<br>\n2008 to 2015<br></p>\n<p>Teaching Assistant<br>\nUniversity of Utah - David Eccles School of Business - Salt Lake City, UT<br>\nAugust 2013 to February 2014<br></p>\n<p><a class=\"squiffy-link link-section\" data-section=\"Start\" role=\"link\" tabindex=\"0\">Back</a></p>",
+	'WE': {
+		'text': "<p><p align=\"right\">Peter C. Davidson — Interactive Resume</p><hr></p>\n<h3 id=\"work-experience-br-\">Work Experience<br></h3>\n<p><em>Click a job to learn more.</em><br><br>\n<strong><a class=\"squiffy-link link-section\" data-section=\"WE HFM\" role=\"link\" tabindex=\"0\">Video Production Specialist</a></strong><br>\nHappy Fox Media - Orem, UT<br>\n<em>Jan 2014 - Present</em><br><br>\n<strong><a class=\"squiffy-link link-section\" data-section=\"WE MPS\" role=\"link\" tabindex=\"0\">VFX Coordinator</a></strong><br>\nLDS Motion Picture Studio (mpsVFX) - Provo, UT<br>\n<em>Jan 2018 - Sep 2018</em><br><br>\n<strong><a class=\"squiffy-link link-section\" data-section=\"WE MBAO\" role=\"link\" tabindex=\"0\">Video Editor</a></strong><br>\nUniversity of Utah MBA Online Program - Salt Lake City, UT<br>\n<em>Mar 2014 - May 2016</em><br><br>\n<strong><a class=\"squiffy-link link-section\" data-section=\"WE BB\" role=\"link\" tabindex=\"0\">Teaching Assistant</a></strong><br>\nUniversity of Utah - David Eccles School of Business - Salt Lake City, UT<br>\n<em>Aug 2013 - Feb 2014</em><br><br>\n<strong><a class=\"squiffy-link link-section\" data-section=\"WE PMI\" role=\"link\" tabindex=\"0\">Private Music Instructor</a></strong><br>\nPrivate Studio - Salt Lake City, UT<br>\n<em>2008 - 2015</em><br><br>\n<a class=\"squiffy-link link-section\" data-section=\"MAIN\" role=\"link\" tabindex=\"0\">←Back</a></p>",
+		'passages': {
+		},
+	},
+	'WE HFM': {
+		'text': "<p><p align=\"right\">Peter C. Davidson — Interactive Resume</p><hr></p>\n<h3 id=\"work-experience-br-br-\">Work Experience<br><br></h3>\n<p><strong>Video Production Specialist</strong><br>\nHappy Fox Media - Orem, UT<br>\n<em>Jan 2014 - Present</em><br><br>\n<strong><a class=\"squiffy-link link-section\" data-section=\"WE HFM D\" role=\"link\" tabindex=\"0\">View details</a></strong><br><br>\n<strong><a class=\"squiffy-link link-section\" data-section=\"WE HFM S\" role=\"link\" tabindex=\"0\">Read a summary</a></strong><br><br>\n<a class=\"squiffy-link link-section\" data-section=\"WE\" role=\"link\" tabindex=\"0\">←Back</a></p>",
+		'passages': {
+		},
+	},
+	'WE HFM D': {
+		'text': "<p><p align=\"right\">Peter C. Davidson — Interactive Resume</p><hr></p>\n<h3 id=\"work-experience-br-br-\">Work Experience<br><br></h3>\n<p><strong>Video Production Specialist</strong><br>\nHappy Fox Media - Orem, UT<br>\n<em>Jan 2014 - Present</em><br><br>\n<strong>Details:</strong><br></p>\n<ul>\n<li>Create videos for marketing, social media, and e-learning applications (over 300 videos so far)</li>\n<li>Perform numerous roles including editing, video/sound capture, visual effects, writing, and animation</li>\n<li>Assure that clients are satisfied and their video needs are met (see happyfoxmedia.com/testimonials)</li>\n<li>Manage company web presence, finances, data, and equipment</li>\n<li>Collaborate with clients and other video editors to meet short deadlines</li>\n</ul>\n<p><br></p>\n<p><strong><a class=\"squiffy-link link-section\" data-section=\"WE HFM S\" role=\"link\" tabindex=\"0\">Read a summary</a></strong><br><br>\n<a class=\"squiffy-link link-section\" data-section=\"WE\" role=\"link\" tabindex=\"0\">←Back</a></p>",
+		'passages': {
+		},
+	},
+	'WE HFM S': {
+		'text': "<p><p align=\"right\">Peter C. Davidson — Interactive Resume</p><hr></p>\n<h3 id=\"work-experience-br-br-\">Work Experience<br><br></h3>\n<p><strong>Video Production Specialist</strong><br>\nHappy Fox Media - Orem, UT<br>\n<em>Jan 2014 - Present</em><br><br>\n<strong>Summary:</strong><br></p>\n<ul>\n<li>Most of my video work over the last 5 years has been at Happy Fox Media, my video production company. As owner of the business, I&#39;ve created hundreds of videos for our clients and have gained extensive experience in writing, planning, shooting, editing, and visual effects. I&#39;ve worked with crew, talent, and clients to make sure projects are completed on time, within budget, and at the highest quality possible. Through managing the details of the business as well as client relationships, I have developed a strong attention to detail and have learned to communicate well and solve problems in high-stress situations.</li>\n</ul>\n<p><br></p>\n<p><strong><a class=\"squiffy-link link-section\" data-section=\"WE HFM D\" role=\"link\" tabindex=\"0\">View details</a></strong><br><br>\n<a class=\"squiffy-link link-section\" data-section=\"WE\" role=\"link\" tabindex=\"0\">←Back</a></p>",
+		'passages': {
+		},
+	},
+	'WE MPS': {
+		'text': "<p><p align=\"right\">Peter C. Davidson — Interactive Resume</p><hr></p>\n<h3 id=\"work-experience-br-br-\">Work Experience<br><br></h3>\n<p><strong>VFX Coordinator</strong><br>\nLDS Motion Picture Studio (mpsVFX) - Provo, UT<br>\n<em>Jan 2018 - Sep 2018</em><br><br>\n<strong><a class=\"squiffy-link link-section\" data-section=\"WE MPS D\" role=\"link\" tabindex=\"0\">View details</a></strong><br><br>\n<strong><a class=\"squiffy-link link-section\" data-section=\"WE MPS S\" role=\"link\" tabindex=\"0\">Read a summary</a></strong><br><br>\n<a class=\"squiffy-link link-section\" data-section=\"WE\" role=\"link\" tabindex=\"0\">←Back</a></p>",
+		'passages': {
+		},
+	},
+	'WE MPS D': {
+		'text': "<p><p align=\"right\">Peter C. Davidson — Interactive Resume</p><hr></p>\n<h3 id=\"work-experience-br-br-\">Work Experience<br><br></h3>\n<p><strong>VFX Coordinator</strong><br>\nLDS Motion Picture Studio (mpsVFX) - Provo, UT<br>\n<em>Jan 2018 - Sep 2018</em><br><br>\n<strong>Details:</strong><br></p>\n<ul>\n<li>Composited visual effects shots using Adobe After Effects</li>\n<li>Built custom tools to track and report employee hours, project cleanup status, and other project analytics</li>\n<li>Assisted leaders with bidding, budgeting, and marketing</li>\n<li>Managed and scheduled dailies (regular reviews of shots in progress)</li>\n<li>Facilitated communication between producer, supervisors, and artists</li>\n<li>Took revision notes during dailies and delivered to artists and supervisors</li>\n<li>Used Shotgun to track shot notes and revision history</li>\n<li>Tracked and reported employee time per project</li>\n<li>Performed pipeline tasks such as pulling plates and delivering completed shots</li>\n<li>Assisted in development of training materials for new artists</li>\n<li>Designed documents for bidding new projects</li>\n</ul>\n<p><br></p>\n<p><strong><a class=\"squiffy-link link-section\" data-section=\"WE MPS S\" role=\"link\" tabindex=\"0\">Read a summary</a></strong><br><br>\n<a class=\"squiffy-link link-section\" data-section=\"WE\" role=\"link\" tabindex=\"0\">←Back</a></p>",
+		'passages': {
+		},
+	},
+	'WE MPS S': {
+		'text': "<p><p align=\"right\">Peter C. Davidson — Interactive Resume</p><hr></p>\n<h3 id=\"work-experience-br-br-\">Work Experience<br><br></h3>\n<p><strong>VFX Coordinator</strong><br>\nLDS Motion Picture Studio (mpsVFX) - Provo, UT<br>\n<em>Jan 2018 - Sep 2018</em><br><br>\n<strong>Summary:</strong><br></p>\n<ul>\n<li>When I started working in the VFX department at the LDS Motion Picture Studio, the department was struggling to keep track of hours worked between various projects— employees were required to report their time though several different platforms, and no system existed to track and analyze the data as a whole. During my time as VFX Coordinator, I built a custom cloud-based time-tracking and project-reporting tool with the ability to generate custom reports and aggregate multiple projects. My system gave producers and supervisors access to detailed information that was previously inaccessible, resulting in improved communication and time management.</li>\n</ul>\n<p><br></p>\n<p><strong><a class=\"squiffy-link link-section\" data-section=\"WE MPS D\" role=\"link\" tabindex=\"0\">View details</a></strong><br><br>\n<a class=\"squiffy-link link-section\" data-section=\"WE\" role=\"link\" tabindex=\"0\">←Back</a></p>",
+		'passages': {
+		},
+	},
+	'WE MBAO': {
+		'text': "<p><p align=\"right\">Peter C. Davidson — Interactive Resume</p><hr></p>\n<h3 id=\"work-experience-br-br-\">Work Experience<br><br></h3>\n<p><strong>Video Editor</strong><br>\nUniversity of Utah MBA Online Program - Salt Lake City, UT<br>\n<em>Mar 2014 - May 2016</em><br><br>\n<strong><a class=\"squiffy-link link-section\" data-section=\"WE MBAO D\" role=\"link\" tabindex=\"0\">View details</a></strong><br><br>\n<strong><a class=\"squiffy-link link-section\" data-section=\"WE MBAO S\" role=\"link\" tabindex=\"0\">Read a summary</a></strong><br><br>\n<a class=\"squiffy-link link-section\" data-section=\"WE\" role=\"link\" tabindex=\"0\">←Back</a></p>",
+		'passages': {
+		},
+	},
+	'WE MBAO D': {
+		'text': "<p><p align=\"right\">Peter C. Davidson — Interactive Resume</p><hr></p>\n<h3 id=\"work-experience-br-br-\">Work Experience<br><br></h3>\n<p><strong>Video Editor</strong><br>\nUniversity of Utah MBA Online Program - Salt Lake City, UT<br>\n<em>Mar 2014 - May 2016</em><br><br>\n<strong>Details:</strong><br></p>\n<ul>\n<li>Captured and edited video lessons for delivery in MBA Online course</li>\n<li>Helped establish video workflow and editing standards for the U of U&#39;s MBA Online program, ranked #14 worldwide by The Princeton Review</li>\n<li>Trained other editors on video editing, camera operation, file management, etc.</li>\n<li>Design and creation of motion graphics elements</li>\n<li>Established best practices for file management, backup, and multi-user collaboration</li>\n<li>Directed video shoots with multiple cameras, lighting, and sound capture</li>\n<li>Wrote and animated a commercial for distribution on Pandora</li>\n</ul>\n<p><br></p>\n<p><strong><a class=\"squiffy-link link-section\" data-section=\"WE MBAO S\" role=\"link\" tabindex=\"0\">Read a summary</a></strong><br><br>\n<a class=\"squiffy-link link-section\" data-section=\"WE\" role=\"link\" tabindex=\"0\">←Back</a></p>",
+		'passages': {
+		},
+	},
+	'WE MBAO S': {
+		'text': "<p><p align=\"right\">Peter C. Davidson — Interactive Resume</p><hr></p>\n<h3 id=\"work-experience-br-br-\">Work Experience<br><br></h3>\n<p><strong>Video Editor</strong><br>\nUniversity of Utah MBA Online Program - Salt Lake City, UT<br>\n<em>Mar 2014 - May 2016</em><br><br>\n<strong>Summary:</strong><br></p>\n<ul>\n<li>When I started working at the newly-created MBA Online program at the University of Utah, the program was grappling with the unique challenge of producing large amounts of e-learning content while working mostly with part-time student video editors. I developed and implemented a video editing workflow that allowed projects to be edited by multiple editors from different computers, while still providing security and real-time cloud backups. This system allowed the program to grow quickly and hire more video editors without having to restructure their workflow, resulting in increased video output. Today, the MBA Online program is ranked #14 worldwide by the Princeton Review.</li>\n</ul>\n<p><br></p>\n<p><strong><a class=\"squiffy-link link-section\" data-section=\"WE MBAO D\" role=\"link\" tabindex=\"0\">View details</a></strong><br><br>\n<a class=\"squiffy-link link-section\" data-section=\"WE\" role=\"link\" tabindex=\"0\">←Back</a></p>",
+		'passages': {
+		},
+	},
+	'WE BB': {
+		'text': "<p><p align=\"right\">Peter C. Davidson — Interactive Resume</p><hr></p>\n<h3 id=\"work-experience-br-br-\">Work Experience<br><br></h3>\n<p><strong>Teaching Assistant</strong><br>\nUniversity of Utah - David Eccles School of Business - Salt Lake City, UT<br>\n<em>Aug 2013 - Feb 2014</em><br><br>\n<strong>Details:</strong><br></p>\n<ul>\n<li>Worked with professors and other faculty to create whiteboard animations teaching key concepts in entrepreneurship</li>\n<li>Recorded and edited video of lectures for online delivery</li>\n<li>Created an animation on economic development that was shown before the Utah Legislature</li>\n<li>Operated a video switcher to capture live, multi-camera video and audio of classroom lectures</li>\n</ul>\n<p><br></p>\n<p><a class=\"squiffy-link link-section\" data-section=\"WE\" role=\"link\" tabindex=\"0\">←Back</a></p>",
+		'passages': {
+		},
+	},
+	'WE PMI': {
+		'text': "<p><p align=\"right\">Peter C. Davidson — Interactive Resume</p><hr></p>\n<h3 id=\"work-experience-br-br-\">Work Experience<br><br></h3>\n<p><strong>Private Music Instructor</strong><br>\nPrivate Studio - Salt Lake City, UT<br>\n<em>2008 - Nov 2015</em><br><br>\n<strong>Details:</strong><br></p>\n<ul>\n<li>Taught private piano and guitar lessons to students from 5 to 14 years old</li>\n<li>Prepared two guitar students to audition for the prestigious Wasatch Junior High Jazz Band in Salt Lake City; both were accepted into the band as seventh graders the first year they auditioned</li>\n</ul>\n<p><br></p>\n<p><a class=\"squiffy-link link-section\" data-section=\"WE\" role=\"link\" tabindex=\"0\">←Back</a></p>",
+		'passages': {
+		},
+	},
+	'EDU': {
+		'text': "<p><p align=\"right\">Peter C. Davidson — Interactive Resume</p><hr></p>\n<h3 id=\"education-br-br-\">Education<br><br></h3>\n<p><strong>The University of Utah</strong><br>\nHonors Bachelor of Arts (HBA)<br>\n<em>Graduated Spring 2017, Cum Laude</em><br></p>\n<ul>\n<li><strong>Major:</strong> Film and Media Arts<ul>\n<li><strong>Major GPA:</strong> 4.0 <em>(3.92 cumulative)</em></li>\n</ul>\n</li>\n<li><strong>Minor:</strong> Spanish</li>\n</ul>\n<p><br></p>\n<p><br><br>\n<a class=\"squiffy-link link-section\" data-section=\"MAIN\" role=\"link\" tabindex=\"0\">←Back</a></p>",
 		'passages': {
 		},
 	},
